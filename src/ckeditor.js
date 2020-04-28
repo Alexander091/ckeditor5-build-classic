@@ -1,5 +1,5 @@
 /**
- * @license Copyright (c) 2003-2019, CKSource - Frederico Knabben. All rights reserved.
+ * @license Copyright (c) 2003-2020, CKSource - Frederico Knabben. All rights reserved.
  * For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
  */
 
@@ -23,6 +23,7 @@ import Link from '@ckeditor/ckeditor5-link/src/link.js';
 import List from '@ckeditor/ckeditor5-list/src/list.js';
 import MediaEmbed from '@ckeditor/ckeditor5-media-embed/src/mediaembed.js';
 import PasteFromOffice from '@ckeditor/ckeditor5-paste-from-office/src/pastefromoffice';
+import TextTransformation from '@ckeditor/ckeditor5-typing/src/texttransformation';
 import Table from '@ckeditor/ckeditor5-table/src/table.js';
 import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar.js';
 import Alignment from '@ckeditor/ckeditor5-alignment/src/alignment.js';
@@ -56,6 +57,8 @@ ClassicEditor.builtinPlugins = [
 	MediaEmbed,
 	PasteFromOffice,
 	Table,
+	TableToolbar,
+	TextTransformation,
 	TableToolbar,
 	Alignment,
 	Autosave,
